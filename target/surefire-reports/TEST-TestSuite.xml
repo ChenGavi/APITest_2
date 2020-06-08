@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.125" tests="8" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\pccha\IdeaProjects\APITest_2\target\test-classes;C:\Users\pccha\IdeaProjects\APITest_2\target\classes;C:\Users\pccha\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\pccha\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\pccha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pccha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pccha\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\pccha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\pccha\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\pccha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pccha\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\pccha\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\pccha\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\pccha\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\pccha\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\pccha\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\pccha\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\pccha\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\pccha\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\pccha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\pccha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pccha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\pccha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pccha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pccha\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\pccha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\pccha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pccha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\pccha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\pccha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\pccha\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\pccha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\pccha\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\pccha\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\pccha\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\pccha\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\pccha\AppData\Local\Temp\surefire10235413991721887877\surefirebooter5770150253816819021.jar C:\Users\pccha\AppData\Local\Temp\surefire10235413991721887877 2020-06-07T21-16-04_862-jvmRun1 surefire11859073620962939607tmp surefire_011189106373236468597tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pccha\IdeaProjects\APITest_2\target\test-classes;C:\Users\pccha\IdeaProjects\APITest_2\target\classes;C:\Users\pccha\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\pccha\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\pccha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pccha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pccha\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\pccha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pccha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\pccha\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\pccha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pccha\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\pccha\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\pccha\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\pccha\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\pccha\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\pccha\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\pccha\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\pccha\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\pccha\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\pccha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\pccha\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\pccha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\pccha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pccha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\pccha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pccha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pccha\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\pccha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\pccha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pccha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\pccha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\pccha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\pccha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\pccha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\pccha\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\pccha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\pccha\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\pccha\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\pccha\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\pccha\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pccha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pccha\IdeaProjects\APITest_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pccha\AppData\Local\Temp\surefire10235413991721887877\surefirebooter5770150253816819021.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="pccha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pccha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pccha\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\Users\pccha\IdeaProjects\APITest_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Python\Python37;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\apache-maven-3.6.3\bin;C:\Program Files\apache-tomcat-9.0.31\lib;C:\Program Files\apache-tomcat-9.0.31\lib\servlet-api.jar;C:\Program Files\apache-tomcat-9.0.31\lib\jsp-api.jar;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\pccha\anaconda3;C:\Users\pccha\anaconda3\Scripts;C:\Users\pccha\anaconda3\Library\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\pccha\AppData\Local\Microsoft\WindowsApps;C:\Users\pccha\AppData\Local\GitHubDesktop\bin;C:\apache-maven-3.6.3\bin;C:\Users\pccha\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="invalidateCreatedCustomerAPI" classname="com.automation.APITestFramework.testCase.CreateCustomerTest" time="1.139"/>
+  <testcase name="validateCreatedCustomerAPI" classname="com.automation.APITestFramework.testCase.CreateCustomerTest" time="0.662"/>
+  <testcase name="validateCreatedCustomerAPI" classname="com.automation.APITestFramework.testCase.CreateCustomerTest" time="0.717"/>
+  <testcase name="validateCreatedCustomerAPI" classname="com.automation.APITestFramework.testCase.CreateCustomerTest" time="0.783"/>
+  <testcase name="validateCreatedCustomerAPI" classname="com.automation.APITestFramework.testCase.CreateCustomerTest" time="0.843"/>
+  <testcase name="delete_customer" classname="com.automation.APITestFramework.testCase.DeleteCustomerTest" time="0.438">
+    <failure message="ID key is not present in JSON response expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+]]></failure>
+    <system-out><![CDATA[Test Name: delete_customer
+Sheet  Name: delete_customer
+cell data 
+{
+    "error": {
+        "code": "resource_missing",
+        "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+        "message": "No such customer: cus_HPc5YnI8TQBc9p",
+        "param": "id",
+        "type": "invalid_request_error"
+    }
+}
+404
+Present check for the object key: false
+Present check for the deleted key: false
+]]></system-out>
+  </testcase>
+  <testcase name="delete_customer" classname="com.automation.APITestFramework.testCase.DeleteCustomerTest" time="0.469">
+    <failure message="ID key is not present in JSON response expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+]]></failure>
+    <system-out><![CDATA[{
+    "error": {
+        "code": "resource_missing",
+        "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+        "message": "No such customer: cus_HPc5wDC3Y298Pp",
+        "param": "id",
+        "type": "invalid_request_error"
+    }
+}
+404
+Present check for the object key: false
+Present check for the deleted key: false
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(com.automation.AppTest)" classname="com.automation.AppTest" time="0.01"/>
+</testsuite>

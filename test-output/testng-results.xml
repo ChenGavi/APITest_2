@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-04T17:00:06 EDT" name="All Test Suite" finished-at="2020-06-04T17:00:12 EDT" duration-ms="5439">
+    <groups>
+    </groups>
+    <test started-at="2020-06-04T17:00:06 EDT" name="Create Customer API Test" finished-at="2020-06-04T17:00:12 EDT" duration-ms="5439">
+      <class name="com.automation.APITestFramework.testCase.CreateCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:06 EDT" name="setUp" finished-at="2020-06-04T17:00:06 EDT" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:06 EDT" name="invalidateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-04T17:00:09 EDT" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Second customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:09 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-04T17:00:10 EDT" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Second customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:10 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-04T17:00:11 EDT" duration-ms="553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[corporate@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Third Customer in Framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:11 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-04T17:00:11 EDT" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ishita Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ishita@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the forth Customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:11 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-04T17:00:12 EDT" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[andrew@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[foreign customer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@21d5c1a0]" started-at="2020-06-04T17:00:12 EDT" name="tearDown" finished-at="2020-06-04T17:00:12 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.APITestFramework.testCase.CreateCustomerTest -->
+    </test> <!-- Create Customer API Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

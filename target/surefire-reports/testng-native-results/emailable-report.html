@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">2,498</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.automation.APITestFramework.testCase.DeleteCustomerTest</td><td><a href="#m0">delete_customer</a></td><td rowspan="2">1591578968878</td><td rowspan="2">677</td></tr><tr class="failedeven"><td><a href="#m1">delete_customer</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.automation.APITestFramework.testCase.CreateCustomerTest</td><td><a href="#m2">invalidateCreatedCustomerAPI</a></td><td rowspan="1">1591578967108</td><td rowspan="1">1126</td></tr><tr class="passedeven"><td><a href="#m3">validateCreatedCustomerAPI</a></td><td rowspan="4">1591578968239</td><td rowspan="4">635</td></tr><tr class="passedeven"><td><a href="#m4">validateCreatedCustomerAPI</a></td></tr><tr class="passedeven"><td><a href="#m5">validateCreatedCustomerAPI</a></td></tr><tr class="passedeven"><td><a href="#m6">validateCreatedCustomerAPI</a></td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.automation.APITestFramework.testCase.DeleteCustomerTest#delete_customer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>cus_HPc5wDC3Y298Pp</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automation.APITestFramework.testCase.DeleteCustomerTest#delete_customer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>cus_HPc5YnI8TQBc9p</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automation.APITestFramework.testCase.CreateCustomerTest#invalidateCreatedCustomerAPI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Rahul Arora</td><td>java@way2automation.com</td><td>Adding the Second customer in framework</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automation.APITestFramework.testCase.CreateCustomerTest#validateCreatedCustomerAPI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Ishita Arora</td><td>ishita@way2automation.com</td><td>Adding the forth Customer in framework</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.automation.APITestFramework.testCase.CreateCustomerTest#validateCreatedCustomerAPI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Raman Arora</td><td>corporate@way2automation.com</td><td>Adding the Third Customer in Framework</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.automation.APITestFramework.testCase.CreateCustomerTest#validateCreatedCustomerAPI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Rahul Arora</td><td>java@gmail.com</td><td>Adding the Second customer in framework</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.automation.APITestFramework.testCase.CreateCustomerTest#validateCreatedCustomerAPI</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Andrew</td><td>andrew@gmail.com</td><td>foreign customer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

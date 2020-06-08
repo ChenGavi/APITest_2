@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="11" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-07T21:16:07 EDT" name="Surefire suite" finished-at="2020-06-07T21:16:09 EDT" duration-ms="2498">
+    <groups>
+    </groups>
+    <test started-at="2020-06-07T21:16:07 EDT" name="Surefire test" finished-at="2020-06-07T21:16:09 EDT" duration-ms="2498">
+      <class name="com.automation.APITestFramework.testCase.CreateCustomerTest">
+        <test-method signature="invalidateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@7859e786]" started-at="2020-06-07T21:16:07 EDT" name="invalidateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-07T21:16:08 EDT" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Second customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@7859e786]" started-at="2020-06-07T21:16:08 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-07T21:16:08 EDT" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ishita Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ishita@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the forth Customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@7859e786]" started-at="2020-06-07T21:16:08 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-07T21:16:08 EDT" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[corporate@way2automation.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Third Customer in Framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@7859e786]" started-at="2020-06-07T21:16:08 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-07T21:16:08 EDT" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul Arora]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adding the Second customer in framework]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+        <test-method signature="validateCreatedCustomerAPI(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.CreateCustomerTest@7859e786]" started-at="2020-06-07T21:16:08 EDT" name="validateCreatedCustomerAPI" data-provider="data" finished-at="2020-06-07T21:16:08 EDT" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[andrew@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[foreign customer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedCustomerAPI -->
+      </class> <!-- com.automation.APITestFramework.testCase.CreateCustomerTest -->
+      <class name="com.automation.APITestFramework.testCase.DeleteCustomerTest">
+        <test-method signature="delete_customer(java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.DeleteCustomerTest@285d851a]" started-at="2020-06-07T21:16:08 EDT" name="delete_customer" data-provider="data" finished-at="2020-06-07T21:16:09 EDT" duration-ms="677" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cus_HPc5wDC3Y298Pp]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ID key is not present in JSON response expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_customer -->
+        <test-method signature="delete_customer(java.lang.String)[pri:0, instance:com.automation.APITestFramework.testCase.DeleteCustomerTest@285d851a]" started-at="2020-06-07T21:16:08 EDT" name="delete_customer" data-provider="data" finished-at="2020-06-07T21:16:09 EDT" duration-ms="651" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cus_HPc5YnI8TQBc9p]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ID key is not present in JSON response expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_customer -->
+      </class> <!-- com.automation.APITestFramework.testCase.DeleteCustomerTest -->
+      <class name="com.automation.APITestFramework.setUp.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.APITestFramework.setUp.BaseTest@361c294e]" started-at="2020-06-07T21:16:06 EDT" name="setUp" finished-at="2020-06-07T21:16:07 EDT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.APITestFramework.setUp.BaseTest@361c294e]" started-at="2020-06-07T21:16:09 EDT" name="tearDown" finished-at="2020-06-07T21:16:09 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.APITestFramework.setUp.BaseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,466 @@
+2020-06-02 11:15:34.656 DEBUG org.example.AppTest 24 shouldAnswerWithTrue -Hello from Log4j 2
+2020-06-02 11:15:34.661 TRACE org.example.AppTest 26 shouldAnswerWithTrue -log: Trace
+2020-06-02 11:15:34.661 DEBUG org.example.AppTest 27 shouldAnswerWithTrue -log: debug
+2020-06-02 11:15:34.661 INFO  org.example.AppTest 28 shouldAnswerWithTrue -log: info
+2020-06-02 11:15:34.662 WARN  org.example.AppTest 29 shouldAnswerWithTrue -log: warn
+2020-06-02 11:15:34.663 ERROR org.example.AppTest 30 shouldAnswerWithTrue -log: error
+2020-06-02 11:15:34.663 FATAL org.example.AppTest 31 shouldAnswerWithTrue -log: fatal
+2020-06-02 12:03:26.519 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 12:03:50.273 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 12:04:33.365 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 12:05:33.260 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 12:20:51.504 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 12:21:11.818 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:19:08.669 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:21:50.410 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:22:08.708 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 30 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:39:01.008 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 48 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 15:39:01.586 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 29 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:57:04.373 INFO  org.example.APITestFramework.setUp.BaseTest 27 setUp -**************The test suite starts**************
+2020-06-02 15:57:05.583 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 46 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 15:57:06.197 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 27 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:57:06.198 INFO  org.example.APITestFramework.setUp.BaseTest 33 tearDown -*************The test suite finished**************
+2020-06-02 15:59:32.045 INFO  org.example.APITestFramework.setUp.BaseTest 27 setUp -**************The test suite starts**************
+2020-06-02 15:59:33.230 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 46 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 15:59:33.800 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 27 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 15:59:33.801 INFO  org.example.APITestFramework.setUp.BaseTest 33 tearDown -*************The test suite finished**************
+2020-06-02 17:01:10.081 INFO  org.example.APITestFramework.setUp.BaseTest 39 setUp -**************The test suite starts**************
+2020-06-02 17:01:11.337 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 46 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 17:01:11.944 INFO  org.example.APITestFramework.testCase.CreateCustomerTest 27 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 17:01:11.948 INFO  org.example.APITestFramework.setUp.BaseTest 45 tearDown -*************The test suite finished**************
+2020-06-02 21:23:01.497 INFO  org.example.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:23:01.527 INFO  org.example.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:29:38.386 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:29:39.599 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 47 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 21:29:39.623 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:31:19.663 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:31:35.830 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:31:36.910 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 47 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 21:31:36.930 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:32:31.429 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:32:32.523 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 47 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 21:32:32.538 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:32:59.087 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:33:00.462 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 47 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 21:33:01.343 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:33:01.345 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:34:42.339 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:34:43.656 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:34:44.417 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:34:45.440 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:34:45.443 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:35:34.796 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:35:36.062 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:35:36.636 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:35:37.522 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:35:38.093 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:35:38.095 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-02 21:37:06.782 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-02 21:37:07.869 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 47 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-02 21:37:08.449 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:37:09.296 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:37:09.862 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:37:10.477 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 28 validateCreatedCustomerAPI -Successfully create new user
+2020-06-02 21:37:10.479 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 16:36:49.972 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 16:36:51.694 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 16:36:52.269 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:36:52.836 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:36:53.461 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:36:54.059 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:36:54.063 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 16:41:26.402 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 16:41:27.715 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 16:41:28.268 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:41:28.852 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:41:29.427 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:41:30.015 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:41:30.017 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 16:51:57.409 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 16:52:01.748 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 16:52:02.329 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:52:02.949 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:52:03.560 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:52:04.173 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:52:04.175 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 16:55:12.814 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 16:55:18.726 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 16:55:19.315 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:55:20.289 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:55:20.852 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:55:21.423 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:55:21.425 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 16:59:47.018 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 16:59:48.328 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 16:59:49.104 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:59:49.645 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:59:50.700 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:59:51.246 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 16:59:51.274 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:00:06.928 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:00:09.841 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:00:10.674 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:00:11.228 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:00:11.805 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:00:12.374 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:00:12.388 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:25:15.463 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:25:17.164 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:25:17.757 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:25:18.487 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:25:19.064 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:25:19.643 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:25:19.647 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:25:58.591 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:26:00.540 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:26:01.115 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:26:01.707 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:26:02.258 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:26:02.824 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:26:02.827 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:29:34.518 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:29:35.889 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:29:37.016 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:29:37.936 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:29:38.570 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:29:39.199 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:29:39.202 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:34:41.588 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:34:43.172 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:34:43.752 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:34:44.336 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:34:44.908 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:34:45.637 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:34:45.821 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-04 17:42:05.997 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-04 17:42:07.359 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-04 17:42:07.985 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:42:08.955 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:42:09.515 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:42:10.079 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-04 17:42:10.258 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 12:48:33.577 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 12:48:36.958 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 12:48:37.562 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:48:38.146 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:48:38.730 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:48:39.300 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:48:39.307 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 12:49:22.204 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 12:49:23.691 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 12:49:24.251 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:49:24.879 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:49:25.715 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:49:26.331 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:49:26.507 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 12:53:38.199 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 12:53:39.552 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 12:53:40.150 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:53:40.718 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:53:41.287 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:53:41.869 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:53:42.037 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 12:55:21.547 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 12:55:22.941 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 12:55:23.512 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:55:24.080 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:55:24.739 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:55:25.292 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:55:25.465 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 12:58:53.360 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 12:58:54.679 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:58:55.263 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:58:55.830 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:58:56.427 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 12:58:57.015 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 12:58:57.211 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:13:20.971 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:13:22.535 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 28 delete_customer -Successfully create new user
+2020-06-05 15:13:23.210 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 28 delete_customer -Successfully create new user
+2020-06-05 15:13:23.213 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:15:06.517 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:15:07.853 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:15:08.472 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:15:08.474 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:16:10.089 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:16:11.495 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:16:12.072 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:16:12.799 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:16:13.413 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:16:14.004 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 15:16:14.640 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:16:15.252 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:16:15.440 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:17:45.900 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:17:50.383 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 28 delete_customer -Successfully create new user
+2020-06-05 15:17:51.049 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 28 delete_customer -Successfully create new user
+2020-06-05 15:17:51.051 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:18:08.738 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:18:10.081 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:18:10.693 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The network status is not good
+2020-06-05 15:18:10.696 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:19:58.450 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:19:59.842 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The customer is not in list
+2020-06-05 15:20:00.452 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 30 delete_customer -The customer is not in list
+2020-06-05 15:20:00.456 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:20:37.452 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:20:38.753 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 32 delete_customer -The customer is not in list
+2020-06-05 15:20:39.368 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 32 delete_customer -The customer is not in list
+2020-06-05 15:20:39.370 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:40:20.792 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:40:22.221 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:40:22.848 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:40:22.850 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:40:37.148 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:40:38.399 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:40:38.975 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:40:39.570 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:40:40.135 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:40:40.706 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 15:40:41.324 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:40:41.930 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:40:42.119 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:44:57.423 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:44:58.849 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:44:59.419 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:44:59.995 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:45:00.575 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:45:01.138 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 15:45:01.814 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:02.485 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:03.145 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:03.787 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:04.435 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:05.098 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:05.750 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:06.402 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:07.066 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:07.719 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:08.397 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:09.054 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:09.698 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:10.367 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:13.089 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:13.755 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:14.438 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:15.468 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:16.242 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:16.946 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:17.629 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:18.264 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:18.918 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:19.631 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:20.462 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:22.106 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:22.787 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:23.431 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:24.086 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:24.774 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:25.439 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:26.104 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:26.831 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:27.502 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:28.200 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:29.037 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:29.723 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:30.565 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:31.206 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:31.842 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:32.488 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:33.153 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:33.805 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:34.700 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:35.893 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:36.711 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:37.496 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:38.305 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:38.988 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:39.674 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:40.351 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:41.010 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:41.707 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:42.355 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:43.026 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:43.844 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:44.505 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:45.169 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:45.818 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:46.479 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:47.164 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:47.793 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:48.467 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:49.116 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:49.752 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:50.421 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:51.073 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:51.724 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:52.357 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:53.063 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:54.273 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:55.051 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:55.786 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:56.622 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:57.589 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:58.466 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:59.188 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:45:59.908 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:00.566 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:01.815 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:02.499 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:03.191 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:03.896 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:04.587 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:05.247 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:05.911 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:06.564 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:07.204 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:07.837 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:08.476 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:09.497 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:10.146 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:10.998 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:11.667 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:12.506 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:13.384 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:14.474 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:15.173 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:15.918 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:16.560 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:17.388 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:18.049 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:18.679 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:19.355 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:19.988 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:20.675 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:21.327 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:22.009 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:46:22.282 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:51:05.643 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:51:07.321 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:51:07.321 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:51:07.321 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:51:07.324 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:51:07.937 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 15:51:08.639 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.665 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.668 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.677 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.680 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.690 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.697 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.700 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.700 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:08.712 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:09.332 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:09.339 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:09.351 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:09.460 INFO  com.automation.APITestFramework.testCase.DeleteCustomerTest 29 delete_customer -Successfully delete  new user
+2020-06-05 15:51:09.681 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 15:57:44.145 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 15:57:45.711 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:57:45.711 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:57:45.711 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:57:47.419 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 31 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 15:57:48.002 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 54 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 15:57:48.636 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.636 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.645 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.653 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.669 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.669 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.675 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.679 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.680 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:48.689 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:49.262 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:49.265 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:49.268 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:49.288 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 15:57:49.490 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:00:48.591 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:00:50.132 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 16:00:50.132 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 16:00:50.132 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 16:00:50.220 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 16:00:51.001 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 55 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 16:00:51.634 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.651 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.667 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.675 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.675 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.681 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.683 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.686 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.688 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:51.694 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:52.243 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:52.268 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:52.277 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:52.290 ERROR com.automation.APITestFramework.testCase.DeleteCustomerTest 31 delete_customer -The customer is not in list
+2020-06-05 16:00:52.565 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:20:41.909 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:20:44.963 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:23:21.665 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:23:23.493 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:31:58.971 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:32:03.405 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:32:25.552 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:32:26.868 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:46:20.553 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:46:22.113 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:46:51.054 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:46:52.436 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:47:22.971 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:47:26.883 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 16:50:27.803 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 16:50:29.281 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:08:24.978 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:08:29.752 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:11:01.429 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:11:05.878 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:11:05.878 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:11:05.878 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:11:05.878 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:11:06.514 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 55 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 17:11:07.524 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:13:20.939 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:13:25.461 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:13:25.461 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:13:25.461 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:13:25.461 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:13:26.055 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 55 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 17:13:27.218 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:15:04.498 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:15:05.953 ERROR com.automation.APITestFramework.testCase.CreateCustomerTest 55 invalidateCreatedCustomerAPI -The invalid Key can invade the system
+2020-06-05 17:15:05.964 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:16:18.810 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:16:19.892 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 53 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-05 17:16:19.897 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:19:42.433 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:19:43.820 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:19:43.820 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:19:43.820 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:19:43.850 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:19:44.242 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 53 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-05 17:19:45.181 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:25:15.706 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:25:17.404 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:25:17.404 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:25:17.404 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:25:17.404 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:25:17.796 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 53 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-05 17:25:18.615 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:28:41.993 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:28:43.506 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:28:43.506 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:28:43.506 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:28:43.506 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:28:43.909 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 53 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-05 17:28:44.746 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************
+2020-06-05 17:30:22.634 INFO  com.automation.APITestFramework.setUp.BaseTest 41 setUp -**************The test suite starts**************
+2020-06-05 17:30:25.890 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:30:25.890 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:30:25.890 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:30:25.890 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 32 validateCreatedCustomerAPI -Successfully create new user
+2020-06-05 17:30:26.291 INFO  com.automation.APITestFramework.testCase.CreateCustomerTest 53 invalidateCreatedCustomerAPI -Invalid key works
+2020-06-05 17:30:27.108 INFO  com.automation.APITestFramework.setUp.BaseTest 47 tearDown -*************The test suite finished**************

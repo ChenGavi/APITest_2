@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.125 s <<< FAILURE! - in TestSuite
+com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer  Time elapsed: 0.438 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+
+com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer  Time elapsed: 0.469 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in JSON response expected [true] but found [false]
+	at com.automation.APITestFramework.testCase.DeleteCustomerTest.delete_customer(DeleteCustomerTest.java:32)
+

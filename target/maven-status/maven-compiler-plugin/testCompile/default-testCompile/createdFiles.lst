@@ -1,0 +1,13 @@
+com\automation\APITestFramework\utilities\DataUtil.class
+com\automation\APITestFramework\utilities\TestUtil.class
+com\automation\APITestFramework\testCase\DeleteCustomerTest.class
+com\automation\APITestFramework\utilities\TestParameterization.class
+com\automation\APITestFramework\listeners\ExtentListeners.class
+com\automation\APITestFramework\listeners\ExtentManager.class
+com\automation\APITestFramework\APIs\deleteCustomerAPIWithValidID.class
+com\automation\APITestFramework\utilities\ExcelReader.class
+com\automation\APITestFramework\setUp\BaseTest.class
+com\automation\AppTest.class
+com\automation\APITestFramework\testCase\CreateCustomerTest.class
+com\automation\APITestFramework\APIs\CreateCustomerAPI.class
+com\automation\APITestFramework\utilities\MyExcelReader.class

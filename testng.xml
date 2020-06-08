@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="com.automation.APITestFramework.listeners.ExtentListeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/pccha/IdeaProjects/APITest_2/src/test">
+        <classes>
+            <class name="com.automation.APITestFramework.testCase.CreateCustomerTest">
+                <methods>
+                    <include name="validateCreatedCustomerAPI"/>
+                    <include name="invalidateCreatedCustomerAPI"/>
+                </methods>
+            </class>
+            <class name="com.automation.APITestFramework.testCase.DeleteCustomerTest"/>
+        </classes>
+    </test>
+</suite>
